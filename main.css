@@ -1,0 +1,140 @@
+body{
+    background-color: #4C2556;
+    font-family: fantasy;
+}
+
+a.navbar-brand {
+    color: #4C2556 !important;
+}
+
+.bg-light {
+    background-color: #FEFEFE;
+}
+
+a.navbar-brand {
+    color: #E42424 !important;
+}
+
+a.nav-link {
+    color: #E42424 !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
+    margin-left: 45px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    width: 100%;
+    border-top: 1px solid #4C2556;
+    color:#E42424 !important;
+}
+
+img{
+    width:300px;
+}
+
+img.navImg{
+    height:30px;
+    width:30px;
+  
+    transform: rotate(-130deg);
+}
+
+img.caroImg{
+    height:300px;
+    border-radius: 2%;
+}
+
+img.sideImg1{
+    height:120px;
+    width:80px;
+    margin-top:40px;
+    opacity: 0.8;
+}
+
+img.sideImg2{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+img.sideImg3{
+    opacity: 1.5;
+    height:120px;
+    width:80px;
+    margin-top:40px;
+    opacity: 0.8;
+    transform: rotate(90deg);
+}
+
+p.intro{
+    font-size: 40px;
+    color:#F8F9FA !important;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+h1{
+    color:#E42424;
+    margin-bottom: 0;
+    margin-top: 110px;
+    font-weight: bold;
+}
+
+h1.about{
+    color:#E42424;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color:#4C2556;
+}
+
+.card{
+    background-color: #F8F9FA;
+}
+
+p.card-text{
+    color:#4C2556;
+}
+
+.card.entrees{
+    margin-top: 70px;
+}
+
+.card.drinks{
+    margin-top: 100px;
+}
+
+div.appetizers{
+    margin-top: 25px;
+}
+
+div.jumboDiv{
+    padding: 0;
+    color:#4C2556 !important;
+}
+
+.jumbotron.jumbotron-fluid {
+    background-color: #F8F9FA;
+}
+
+footer{
+    color:#F8F9FA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 880px) {
+    img.sideImg3{
+        display: none;
+    }
+  }
